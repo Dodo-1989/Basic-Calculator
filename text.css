@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://www.sciencenews.org/sites/default/files/2018/05/main/articles/050718_EC_numbers_feat.jpg);
+   font-family: 'open Sans', sans-serif;
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    margin: 0 auto;
+    top : 20px;
+    position: relative;
+    border-radius:  5px;
+    box-shadow: 5px 4px 8px 7px rgba(0, 0 , 0, 0.2), 5px 6px 20px 8px rgba(0, 0, 0, 0.19);
+}
+
+
+#result{
+    height: 120px;
+
+}
+
+#history-value{
+    text-align: right;
+    height: 30px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output-value{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty{
+ width: 50px;
+ height: 50px;
+ margin: 15px;
+ float: left;
+ border-radius: 30%;
+ border-width: 0;
+ font-weight: bold;
+ font-size: 20px;
+ 
+}
+
+.number, .empty{
+    background-color:white;
+}
+
+.operator:active, .number:active{
+    font-size: 15px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline:0;
+}
+
+
+button:nth-child(4){
+    font-size: 25px;
+    background-color:#B32D11;
+}
+button:nth-child(8){
+    font-size: 25px;
+    background-color: #11B3AB;
+}
+button:nth-child(12){
+    font-size: 25px;
+    background-color:#0940BC;
+}
+button:nth-child(16){
+    font-size: 25px;
+    background-color:#AC09BC;
+}
+button:nth-child(20){
+    font-size: 25px;
+    background-color:#E5EF45;
+}
